@@ -37,6 +37,8 @@ android {
 
 dependencies {
 
+    implementation("com.google.android.material:material:1.11.0") //jika belum ada
+    implementation("androidx.viewpager2:viewpager2:1.0.0")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
